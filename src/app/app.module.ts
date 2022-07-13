@@ -12,6 +12,7 @@ import { ProductPageComponent } from './product-page/product-page.component';
 import { HeaderComponent } from './main-page/header/header.component';
 import { FooterComponent } from './main-page/footer/footer.component';
 import { InfoCarouselComponent } from './main-page/info-carousel/info-carousel.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { InfoCarouselComponent } from './main-page/info-carousel/info-carousel.c
     FooterComponent,
     InfoCarouselComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
