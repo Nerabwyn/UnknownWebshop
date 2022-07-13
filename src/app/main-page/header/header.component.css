@@ -1,0 +1,12 @@
+.spacer {
+  flex: 1 1 auto;
+}
+.form {
+  min-width: 50px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
